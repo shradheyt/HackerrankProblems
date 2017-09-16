@@ -19,7 +19,7 @@ public class PickingNumbers {
                 maxNum = a[a_i];
         }
 
-        for(int i = 0; i < maxNum - 1; i++)
+        for(int i = 0; i < maxNum; i++)
         {
             if(frequency[i] + frequency[i + 1] > max)
                 max = frequency[i] + frequency[i + 1];
